@@ -66,11 +66,11 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .container {
 	margin: 0 75px;
-	width: 876px;
+	width: 874px;
 }
 
 h1 {
-	font-size: 71px;
+	font-size: 72px;
 	font-weight: bolder;
 }
 
@@ -91,7 +91,7 @@ button {
 	font-family: inherit;
 	font-size: 17px;
 	outline: none;
-	padding: 4px 45px;
+	padding: 3px 45px;
 }
 
 button:hover {
@@ -107,7 +107,17 @@ button:active {
 }
 
 nav {
-	text-align: justify;
+	/* text-align: justify; */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 27px 0px;
+}
+
+nav div {
+	width: 595px;
+	display: flex;
+	justify-content: space-between;
 }
 
 nav a {
@@ -115,42 +125,49 @@ nav a {
 	font-size: 14px;
 	font-weight: bolder;
 	text-decoration: none;
-	margin-right: 63px;
-	vertical-align: middle;
 }
 
-nav img {
+/* nav img {
 	vertical-align: middle;
 	margin: 27px 0px 27px 27px;
-}
+} */
 
 header {
-	margin-bottom: 37px;
+	height: 500px;
+	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 header div {
-	display: inline-block;
-	margin-left: 40px;
-	margin-right: 72px;
+	/* display: inline-block; */
+	/* margin-left: 40px; */
+	/* margin-right: 72px; */
 	text-align: center;
-	vertical-align: middle;
-	width: 379px;
+	/* vertical-align: middle; */
+	height: 290px;
+	width: 330px;
+	/* padding-left: 70px; */
+	margin-left: 70px;
 }
 
 header h1 {
-	padding: 17px 35px;
+	/* padding: 17px 35px; */
+	height: 225px;
 	letter-spacing: 6px;
 }
 
 header img {
-	display: inline-block;
+	/* display: inline-block;
 	margin: 43px 0px 40px 0px;
-	vertical-align: middle;
+	vertical-align: middle; */
+	margin-bottom: 35px;
 }
 
-section {
+/* section {
 	border-top: 1px solid black;
-}
+} */
 
 section div {
 	display: inline-block;
