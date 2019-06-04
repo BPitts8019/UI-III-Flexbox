@@ -107,7 +107,6 @@ button:active {
 }
 
 nav {
-	/* text-align: justify; */
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -127,11 +126,6 @@ nav a {
 	text-decoration: none;
 }
 
-/* nav img {
-	vertical-align: middle;
-	margin: 27px 0px 27px 27px;
-} */
-
 header {
 	height: 500px;
 	border-bottom: 1px solid black;
@@ -141,33 +135,20 @@ header {
 }
 
 header div {
-	/* display: inline-block; */
-	/* margin-left: 40px; */
-	/* margin-right: 72px; */
-	text-align: center;
-	/* vertical-align: middle; */
 	height: 290px;
 	width: 330px;
-	/* padding-left: 70px; */
 	margin-left: 70px;
+	text-align: center;
 }
 
 header h1 {
-	/* padding: 17px 35px; */
 	height: 225px;
 	letter-spacing: 6px;
 }
 
 header img {
-	/* display: inline-block;
-	margin: 43px 0px 40px 0px;
-	vertical-align: middle; */
 	margin-bottom: 35px;
 }
-
-/* section {
-	border-top: 1px solid black;
-} */
 
 section div {
 	display: inline-block;
