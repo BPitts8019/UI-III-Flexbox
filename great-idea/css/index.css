@@ -64,3 +64,169 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Generic Styles - work on every page */
+.container {
+	margin: 0 60px;
+	width: 880px;
+}
+
+/* Super Huge!! */
+h1 {
+	font-size: 72px;
+	font-weight: bolder;
+}
+
+/* Not so huge */
+h2 {
+	font-size: 24px;
+	font-weight: bolder;
+}
+
+h3 {
+	margin-bottom: 17px;
+}
+
+p {
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1.14em;
+}
+
+button {
+	background-color: white;
+	border: 1px solid black;
+	cursor: pointer;
+	outline: none;
+}
+
+button:hover {
+	background-color: black;
+	border-color: #027DDD;
+	color: #027DDD;
+}
+
+button:active {
+	background-color: #12E15F;
+	border-color: black;
+	color: black;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 25px 0px;
+}
+
+nav div {
+	width: 600px;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav a {
+	color: lightgrey;
+	font-size: 14px;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+header {
+	border-bottom: 1px solid black;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header div {
+	height: 290px;
+	width: 330px;
+	margin-left: 70px;
+	text-align: center;
+}
+
+header h1 {
+	height: 225px;
+	letter-spacing: 6px;
+}
+
+section {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+section img {
+	margin-bottom: 37px;
+}
+
+address {
+	border-top: 1px solid black;
+}
+
+address h3 {
+	margin-top: 37px;
+}
+
+address div {
+	line-height: 3.73;
+}
+
+footer {
+	font-size: 14px;
+	margin: 57px 0px;
+	text-align: center;
+}
+
+/* Index Page styles */
+.tall-header {
+	height: 500px;
+}
+
+.gs-header-img {
+	margin-bottom: 35px;
+}
+
+.gs-button {
+	font-family: inherit;
+	font-size: 17px;
+	padding: 3px 45px;
+}
+
+.main-info {
+	margin-top: 38px;
+	margin-bottom: 36px;
+	width: 426px;
+}
+
+.extra-info {
+	width: 276px;
+	margin-bottom: 46px;
+}
+
+/* Services Page Styles */
+.services-container {
+	height: 800px;
+	border-bottom: 1px solid black;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-content: space-around;
+}
+
+.services-info {
+	width: 425px;
+	/* height: 300px; */
+	padding: 20px;
+	background-color: lightgrey;
+	border: 1px solid black;
+}
+
+.services-button {
+	border-radius: 3px;
+	font-family: inherit;
+	font-size: 12px;
+	height: 35px;
+	width: 140px;
+}
