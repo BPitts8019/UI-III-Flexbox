@@ -206,6 +206,23 @@ footer {
 }
 
 /* Services Page Styles */
+.services-container {
+	height: 800px;
+	border-bottom: 1px solid black;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-content: space-around;
+}
+
+.services-info {
+	width: 425px;
+	/* height: 300px; */
+	padding: 20px;
+	background-color: lightgrey;
+	border: 1px solid black;
+}
+
 .services-button {
 	border-radius: 3px;
 	font-family: inherit;
